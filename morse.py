@@ -23,116 +23,116 @@ def sht():
     time.sleep(0.25)
 	    
 def morseCode(x):
-    if x == "a" or "A":
+    if x == 'a' or x == 'A':
         sht()
         lng()
-    elif x == "b" or "B":
-        lng()
-        sht()
-        sht()
-        sht()
-    elif x == "c" or "C":
-        lng()
-        sht()
-        lng()
-        sht()
-    elif x == "d" or "D":
+    elif x == 'b' or x == 'B':
         lng()
         sht()
         sht()
-    elif x == "e" or "E":
         sht()
-    elif x == "f" or "F":
+    elif x == 'c' or x == 'C':
+        lng()
+        sht()
+        lng()
+        sht()
+    elif x == 'd' or x == 'D':
+        lng()
+        sht()
+        sht()
+    elif x == 'e' or x == 'E':
+        sht()
+    elif x == 'f' or x == 'F':
         sht()
         sht()
         lng()
         sht()
-    elif x == "g" or "G":
+    elif x == 'g' or x == 'G':
         lng()
         lng()
         sht()
-    elif x == "h" or "H":
+    elif x == 'h' or x == 'H':
         sht()
         sht()
         sht()
         sht()
-    elif x == "i" or "I":
+    elif x == 'i' or x == 'I':
         sht()
         sht()
-    elif x == "j" or "J":
-        sht()
-        lng()
-        lng()
-        lng()
-    elif x == "k" or "K":
-        lng()
-        sht()
-        lng()
-    elif x == "l" or "L":
-        sht()
-        lng()
-        sht()
-        sht()
-    elif x == "m" or "M":
-        lng()
-        lng()
-    elif x == "n" or "N":
-        lng()
-        sht()
-    elif x == "o" or "O":
-        lng()
-        lng()
-        lng()
-    elif x == "p" or "P":
+    elif x == 'j' or x == 'J':
         sht()
         lng()
         lng()
+        lng()
+    elif x == 'k' or x == 'K':
+        lng()
         sht()
-    elif x == "q" or "Q":
+        lng()
+    elif x == 'l' or x == 'L':
+        sht()
+        lng()
+        sht()
+        sht()
+    elif x == 'm' or x == 'M':
+        lng()
+        lng()
+    elif x == 'n' or x == 'N':
+        lng()
+        sht()
+    elif x == 'o' or x == 'O':
+        lng()
+        lng()
+        lng()
+    elif x == 'p' or x == 'P':
+        sht()
+        lng()
+        lng()
+        sht()
+    elif x == 'q' or x == 'Q':
         lng()
         lng()
         sht()
         lng()
-    elif x == "r" or "R":
+    elif x == 'r' or x == 'R':
         sht()
         lng()
         sht()
-    elif x == "s" or "S":
+    elif x == 's' or x == 'S':
         sht()
         sht()
         sht()
-    elif x == "t" or "T":
+    elif x == 't' or x == 'T':
         lng()
-    elif x == "u" or "U":
-        sht()
-        sht()
-        lng()
-    elif x == "v" or "V":
-        sht()
+    elif x == 'u' or x == 'U':
         sht()
         sht()
         lng()
-    elif x == "w" or "W":
+    elif x == 'v' or x == 'V':
         sht()
-        lng()
-        lng()
-    elif x == "x" or "X":
-        lng()
         sht()
         sht()
         lng()
-    elif x == "y" or "Y":
+    elif x == 'w' or x == 'W':
+        sht()
+        lng()
+        lng()
+    elif x == 'x' or x == 'X':
+        lng()
+        sht()
+        sht()
+        lng()
+    elif x == 'y' or x == 'Y':
         lng()
         sht()
         lng()
         lng()
-    elif x == "z" or "Z":
+    elif x == 'z' or x == 'Z':
         lng()
         lng()
         sht()
         sht()        
 
-str1 = raw_input("Please enter string to translate to morse code: ")
+str1 = raw_input('Please enter string to translate to morse code: ')
 
 for i in range(0, len(str1)):
     morseCode(str1[i])                                                                               
