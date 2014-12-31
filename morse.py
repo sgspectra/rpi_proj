@@ -14,13 +14,13 @@ def lng():
     GPIO.output(red,GPIO.HIGH)
     time.sleep(0.5)
     GPIO.output(red,GPIO.LOW)
-    time.sleep(0.5)
+    time.sleep(0.2)
 
 def sht():
     GPIO.output(red,GPIO.HIGH)
     time.sleep(0.25)
     GPIO.output(red,GPIO.LOW)
-    time.sleep(0.25)
+    time.sleep(0.2)
 	    
 def morseCode(x):
     if x == 'a' or x == 'A':
