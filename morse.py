@@ -14,12 +14,14 @@ def lng():
     GPIO.output(red,GPIO.HIGH)
     time.sleep(0.5)
     GPIO.output(red,GPIO.LOW)
-    
+    time.sleep(0.5)
+
 def sht():
     GPIO.output(red,GPIO.HIGH)
     time.sleep(0.25)
     GPIO.output(red,GPIO.LOW)
-    
+    time.sleep(0.25)
+	    
 def morseCode(x):
     if x == 'a' or 'A':
         sht()
@@ -130,7 +132,7 @@ def morseCode(x):
         sht()
         sht()        
 
-str1 = input('Please enter string to translate to morse code: ')
+str1 = raw_input('Please enter string to translate to morse code: ')
 
 for c in str1:
     morseCode(c)                                                                               
