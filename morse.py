@@ -132,7 +132,7 @@ def morseCode(x):
         sht()
         sht()        
 
-str1 = raw_input('Please enter string to translate to morse code: ')
+str1 = raw_input("Please enter string to translate to morse code: ")
 
-for c in str1:
-    morseCode(c)                                                                               
+for i in range(0, len(str1)):
+    morseCode(str1[i])                                                                               
